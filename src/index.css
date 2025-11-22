@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+
+@layer utilities{
+  .animation-delay-0 {
+    animation-delay: 0ms;
+  }
+  .animation-delay-1 {
+    animation-delay: 100ms;
+  }
+  .animation-delay-2 {
+    animation-delay: 200ms;
+  }
+}
+
+@layer utilities {
+  .no-spinner::-webkit-outer-spin-button,
+  .no-spinner::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .no-spinner {
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;     
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; 
+}
